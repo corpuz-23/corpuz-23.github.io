@@ -13,7 +13,7 @@
   left: 0;
   width: 100%;
   padding: 35px 15%;
-  background: rbga(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-between;
   align-items: center;
