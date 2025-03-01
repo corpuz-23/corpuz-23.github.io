@@ -12,7 +12,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 35px 15%;
+  padding: 35px 12%;
   background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-between;
@@ -31,4 +31,37 @@
   text-shadow: 0 0 20px rgba(137, 196, 244, 1),
                0 0 40px rgba(137, 196, 244, 1);
   transform: scale(1.1);
+}
+
+.navbar a{
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  margin: 0 20px;
+  border-bottom: 3px solid transparent;
+  transition: 0.2s ease;
+}
+
+.navbar a:hover,
+.navbar a.active{
+  color: rgba(137, 196, 244, 1);
+  border-bottom: 2px solid rgba(137, 196, 244, 1);
+}
+
+.contact{
+  padding: 15px 25px;
+  background-color: white;
+  color: black;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.contact:hover{
+  background-color: rgba(137, 196, 244, 1);
+  box-shadow: 0 0 20px rgba(137, 196, 244, 1),
+               0 0 40px rgba(137, 196, 244, 1);
+  color: white;
 }
