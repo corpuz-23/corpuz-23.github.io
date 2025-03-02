@@ -51,6 +51,9 @@ html{
   transition: 0.2s ease;
 }
 
+.greeting{
+  margin-top: 20px;
+}
 .navbar a:hover,
 .navbar a.active{
   color: rgba(137, 196, 244, 1);
@@ -146,6 +149,10 @@ section{
   max-width: 800px;
 }
 
+.resume-page h2{
+  margin-bottom: 20px;
+}
+
 .resume-page,
 .skills-page{
   background-color: #f8f8f8;
@@ -162,7 +169,7 @@ section{
   font-size: 15px;
   font-weight: 500;
   transition: 0.3s ease;
-  margin-top: 500px;
+  margin-top: 30px;
 }
 
 .resume-page a:hover{
