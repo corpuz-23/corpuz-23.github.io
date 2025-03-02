@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
 }
 
 .logo{
@@ -64,4 +65,8 @@
   box-shadow: 0 0 20px rgba(137, 196, 244, 1),
                0 0 40px rgba(137, 196, 244, 1);
   color: white;
+}
+
+section{
+  padding-top: 100px;
 }
