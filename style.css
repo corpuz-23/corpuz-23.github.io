@@ -7,6 +7,10 @@
   list-style: none;
 }
 
+body{
+  padding-top: 100px;
+}
+
 .header{
   position: fixed;
   top: 0;
@@ -68,7 +72,8 @@
 }
 
 section{
-  padding-top: 300px;
+  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .education-page{
