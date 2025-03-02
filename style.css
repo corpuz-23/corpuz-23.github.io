@@ -175,3 +175,28 @@ section{
   font-size: 20px;
   margin: 25px 0 30px;
 }
+
+.project-content{
+  background-color: #f8f8f8;
+  display: flex;
+  gap: 20px;
+}
+
+.project-content .platform-game,
+.project-content .tiny-website{
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-content .platform-game h3,
+.project-content .tiny-website h3{
+  margin-top: 0;
+}
+
+.project-content .platform-game p,
+.project-content .tiny-website p{
+  margin-bottom: 0;
+}
