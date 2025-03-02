@@ -132,3 +132,8 @@ section{
 .home-content h2{
   font-size: 30px;
 }
+
+.home-content p{
+  font-size: 20px;
+  margin: 25px 0 30px;
+}
