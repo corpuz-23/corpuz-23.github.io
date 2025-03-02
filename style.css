@@ -185,19 +185,27 @@ section{
   margin: 25px 0 30px;
 }
 
+.project-page{
+  background-color: #f8f8f8;
+  padding: 50px 15%;
+  text-align: center;
+}
+
 .project-content{
   background-color: #f8f8f8;
   display: flex;
   max-width: 800px;
   gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .project-content .platform-game,
 .project-content .tiny-website{
-  border: 2px solid #ccc;
+  border: 2px solid rgba(137, 196, 244, 1);
   border-radius: 10px;
   padding: 20px;
-  width: 100%;
+  width: 45%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
