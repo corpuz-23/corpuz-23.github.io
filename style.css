@@ -155,7 +155,8 @@ section{
 
 .resume-page,
 .skills-page,
-.contact-page{
+.contact-page,
+.project-page{
   background-color: #f8f8f8;
   padding: 50px 15%;
 }
@@ -192,12 +193,10 @@ section{
 }
 
 .project-content{
-  background-color: #f8f8f8;
   display: flex;
-  max-width: 800px;
+  flex-direction: column;
   gap: 20px;
-  justify-content: center;
-  margin: 0 auto;
+  padding: 20px;
 }
 
 .project-content .platform-game,
