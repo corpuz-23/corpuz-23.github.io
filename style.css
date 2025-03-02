@@ -70,3 +70,42 @@
 section{
   padding-top: 100px;
 }
+
+.education-page{
+  background-color: #f8f8f8;
+  padding: 50px 15%;
+}
+
+.education-content{
+  max-width: 800px;
+}
+
+.section-title{
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.underline{
+  width: 50px;
+  height: 3px;
+  background-color: rgba(137, 196, 244, 1);
+  margin-top: 5px;
+}
+
+.education-item{
+  margin-top: 20px;
+}
+
+.degree{
+  font-size: 22px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.school{
+  font-size: 18px;
+  font-style: italic;
+  color: #666666;
+}
