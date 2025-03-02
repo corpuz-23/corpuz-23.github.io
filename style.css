@@ -186,12 +186,6 @@ section{
   margin: 25px 0 30px;
 }
 
-.project-page{
-  background-color: #f8f8f8;
-  padding: 50px 15%;
-  text-align: center;
-}
-
 .project-content{
   display: flex;
   flex-direction: column;
@@ -250,17 +244,6 @@ section{
 .soft-desc{
   font-size: 1.1em;
   line-height: 1.6;
-}
-
-.contact-page{
-  background-color: #f8f8f8;
-  padding: 50px 15%;
-  text-align: center;
-}
-
-.contact-page{
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .contact-content p{
