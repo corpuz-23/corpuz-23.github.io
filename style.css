@@ -187,6 +187,7 @@ section{
 .project-content{
   background-color: #f8f8f8;
   display: flex;
+  max-width: 800px;
   gap: 20px;
 }
 
