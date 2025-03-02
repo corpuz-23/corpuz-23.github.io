@@ -142,6 +142,15 @@ section{
   font-size: 30px;
 }
 
+.resume-content{
+  max-width: 800px;
+}
+
+.resume-page{
+  background-color: #f8f8f8;
+  padding: 50px 15%;
+}
+
 .resume-page a{
   text-decoration: none;
   padding: 15px 25px;
@@ -152,6 +161,7 @@ section{
   font-size: 15px;
   font-weight: 500;
   transition: 0.3s ease;
+  margin-top: 30px;
 }
 
 .resume-page a:hover{
